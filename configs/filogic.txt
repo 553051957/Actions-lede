@@ -1,7 +1,7 @@
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 CONFIG_TARGET_MULTI_PROFILE=y
-CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668-No2=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_asus_tuf-ax4200=y
 # CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_bananapi_bpi-r3 is not set
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_bananapi_bpi-r3-mini-emmc=y
@@ -33,4 +33,3 @@ CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_mi-router-ax3000t=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_mi-router-wr30u=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_redmi-router-ax6000=y
-
