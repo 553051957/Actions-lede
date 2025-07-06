@@ -97,13 +97,13 @@ jobs:
         chmod +x $GITHUB_WORKSPACE/$CLASH_CORE_SH && $GITHUB_WORKSPACE/$CLASH_CORE_SH
         chmod +x $GITHUB_WORKSPACE/$ADDMOUNT_SH && $GITHUB_WORKSPACE/$ADDMOUNT_SH
 
-    # - name: 下载文件
-    #   run: |
-    #     cd openwrt
-    #     make defconfig
-    #     make download -j8 V=10
-    #     find dl -size -1024c -exec ls -l {} \;
-    #     find dl -size -1024c -exec rm -f {} \;
+    - name: 下载文件
+      run: |
+        cd openwrt
+         make defconfig
+         make download -j8 V=10
+         find dl -size -1024c -exec ls -l {} \;
+         find dl -size -1024c -exec rm -f {} \;
 
     - name: 空间使用情况2
       if: (!cancelled())
