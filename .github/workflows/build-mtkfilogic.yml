@@ -174,16 +174,16 @@ jobs:
       if: (!cancelled())
       run: df -hT
 
-    - name: 编译固件
-      id: compile
-      if: steps.cpackage.outputs.status == 'success' && !cancelled()
-      run: |
-        cd openwrt
-        echo -e "$(($(nproc)+1)) thread compile"
-        make target/install -j$(nproc) || make target/install -j1 V=s
-        make json_overview_image_info
-        make checksum
-        echo "status=success" >> $GITHUB_OUTPUT
+    #- name: 编译固件
+      #id: compile
+      #if: steps.cpackage.outputs.status == 'success' && !cancelled()
+      #run: |
+       # cd openwrt
+       # echo -e "$(($(nproc)+1)) thread compile"
+        #make target/install -j$(nproc) || make target/install -j1 V=s
+       # make json_overview_image_info
+       # make checksum
+        #echo "status=success" >> $GITHUB_OUTPUT
 
     - name: 空间使用情况7
       if: (!cancelled())
