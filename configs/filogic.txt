@@ -1,7 +1,7 @@
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 CONFIG_TARGET_MULTI_PROFILE=y
-CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668-No2=y
+#CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668-No2=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_asus_tuf-ax4200=y
 # CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_bananapi_bpi-r3 is not set
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_bananapi_bpi-r3-mini-emmc=y
@@ -12,7 +12,7 @@ CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_Nradio-C8-668-No2=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cmcc_rax3000m-nand=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cmcc_xr30-nand=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cudy_tr3000-v1=y
-#CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_fzs_5gcpe-p3=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_fzs_5gcpe-p3=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_h3c_magic-nx30-pro=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_huasifei_wh3000-emmc=y
 #CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_imou_lc-hx3001=y
